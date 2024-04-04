@@ -1,0 +1,14 @@
+summary: Library for varnish testing
+contact: Ondrej Ptak <optak@redhat.com>
+component:
+  - varnish
+test: ./runtest.sh
+framework: beakerlib
+require:
+  - lsof
+recommend:
+  - varnish
+  - httpd
+duration: 5m
+extra-summary: /CoreOS/varnish/Library/varnish
+extra-task: /CoreOS/varnish/Library/varnish
