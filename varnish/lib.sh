@@ -175,6 +175,7 @@ varnishLibraryLoaded() {
         fi
         varnishCOLLECTION=1
         varnishMAIN=${varnishCOLLECTION_NAME}-varnish
+        varnishROOTPREFIX=/var/opt/rh/$varnishCOLLECTION_NAME
         varnishCONFDIR=/etc/opt/rh/$varnishCOLLECTION_NAME/varnish
         varnishLOGDIR=/var/opt/rh/$varnishCOLLECTION_NAME/log/varnish
     else
